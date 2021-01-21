@@ -1,0 +1,20 @@
+.nav-bar {
+  margin: 0;
+  padding: .2rem;
+  background-color: rgb(44, 40, 46);
+  border-bottom: 2px solid rgb(59, 52, 63);
+}
+
+.nav-bar ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+
+}

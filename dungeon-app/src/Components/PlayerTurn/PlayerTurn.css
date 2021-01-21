@@ -1,0 +1,18 @@
+.btn.btn-primary {
+  background-color:rgb(206, 206, 206);
+  color: #000000;
+  font-weight: 600;
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  transition: background-color .15s ease-in-out;
+
+}
+
+
+.btn.btn-primary:hover {
+  background-color:rgb(190, 19, 19);
+
+
+}

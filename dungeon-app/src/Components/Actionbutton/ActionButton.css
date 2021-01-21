@@ -1,0 +1,27 @@
+.btn{
+  padding: .5rem .75rem ;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  
+}
+
+.btn.btn-secondary {
+  background-color:rgb(97, 97, 97);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  transition: background-color .15s ease-in-out;
+}
+
+.btn.btn-secondary:hover {
+  background-color:rgb(153, 153, 153);
+
+
+}

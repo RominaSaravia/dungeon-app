@@ -1,0 +1,67 @@
+.container-dialogue-stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgb(42, 37, 44);
+  border-bottom: 1px solid rgb(42, 37, 44);
+  background-color:  rgb(16, 13, 17);
+  height: calc(100vh - 26.6rem);
+  
+}
+
+.container-dialogue .sentence {
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(247, 220, 255);
+  scroll-snap-align: end;
+}
+
+
+.container-dialogue-stats .container-dialogue{
+  width: 100%;
+  height: calc(100vh - 26.6rem);
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow: auto;
+
+
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color:rgb(16, 13, 17);
+  background-clip: border-box;
+
+}
+
+.container-dialogue::-webkit-scrollbar {
+  width: 10px;
+      
+}
+
+.container-dialogue::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.container-dialogue::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container-dialogue::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.container-dialogue::-webkit-scrollbar-track {
+  background:rgb(42, 37, 44);
+  border-radius: 4px;
+}
+
+.container-dialogue::-webkit-scrollbar-track:hover,
+.container-dialogue::-webkit-scrollbar-track:active {
+background: rgb(64, 57, 66);
+}

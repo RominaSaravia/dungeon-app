@@ -1,0 +1,44 @@
+.container {
+  background-color: rgb(16, 13, 17);
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-between;
+
+}
+
+.container-enemy{
+  width: 80%;
+  margin: auto;
+  background-color: rgb(16, 13, 17);
+  border-bottom: 1px solid rgb(16, 13, 17);
+  background-clip: border-box;
+
+}
+
+.container-img {
+  width: fit-content;
+  border: 1px solid transparent;
+  margin: auto;
+  padding: 0.5rem;
+  background-color: rgb(16, 13, 17);
+}
+
+.container-img img{
+  width: 100%;
+}
+
+.enemy-img {
+  display: block;
+  margin: auto;
+}
+
+.enemy-title {
+  background-color: rgb(44, 40, 46);
+  border-bottom: 1px solid rgb(16, 13, 17);
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  line-height: 1.5;
+  padding: .5rem;
+}
